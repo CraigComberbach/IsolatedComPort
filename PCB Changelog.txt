@@ -1,0 +1,8 @@
+[NamePCB] Rev [Rev] [Date]
+ECN#[ECN Number]
+-Reason for Change
+    [Details]
+-Schematic
+    [Details]
+-PCB
+    [Details]
