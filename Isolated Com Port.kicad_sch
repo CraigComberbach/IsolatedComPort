@@ -4,592 +4,254 @@
 	(generator_version "8.0")
 	(uuid "736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Interface_USB:FT231XQ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FT231XQ"
-				(at 6.35 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-				(at 34.29 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Full Speed USB to Full Handshake UART, QFN-20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "FTDI USB UART interface converter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*4x4mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FT231XQ_0_1"
-				(rectangle
-					(start -13.97 19.05)
-					(end 13.97 -19.05)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "FT231XQ_1_1"
-				(pin input line
-					(at 17.78 12.7 180)
-					(length 3.81)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -17.78 15.24 0)
-					(length 3.81)
-					(name "3V3OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 3.81)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 22.86 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -10.16 180)
-					(length 3.81)
-					(name "CBUS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
-					(length 3.81)
-					(name "CBUS0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 3.81)
-					(name "CBUS3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 15.24 180)
-					(length 3.81)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 3.81)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 3.81)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -2.54 180)
-					(length 3.81)
-					(name "~{RI}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 22.86 270)
-					(length 3.81)
-					(name "VCCIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -22.86 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 2.54 180)
-					(length 3.81)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 0 180)
-					(length 3.81)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 7.62 180)
-					(length 3.81)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -12.7 180)
-					(length 3.81)
-					(name "CBUS2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 5.08 0)
-					(length 3.81)
-					(name "USBDP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 7.62 0)
-					(length 3.81)
-					(name "USBDM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 114.3 88.9)
 		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5f6fb0-5692-4f4a-ad07-7fa3910759ae")
 	)
-	(symbol
-		(lib_id "Interface_USB:FT231XQ")
-		(at 148.59 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28bbe81-9fe0-42fd-b8ff-b9dda2f1011f")
+	)
+	(sheet
+		(at 114.3 83.82)
+		(size 33.02 12.7)
 		(fields_autoplaced yes)
-		(uuid "097a8723-d552-41e2-8980-6dffdf155611")
-		(property "Reference" "U1"
-			(at 153.3241 83.82 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "20c906b9-666a-4d7a-8032-5080b03787b8")
+		(property "Sheetname" "USB To UART"
+			(at 114.3 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB To UART.kicad_sch"
+			(at 114.3 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB D-" bidirectional
+			(at 114.3 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "d46d24a1-2ca0-4831-8b9d-ff271ab5348c")
 		)
-		(property "Value" "FT231XQ"
-			(at 153.3241 86.36 0)
+		(pin "USB D+" bidirectional
+			(at 114.3 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "ba0c4e78-fa27-4faa-8c19-1b44b5ccdc21")
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
-			(at 182.88 127 0)
+		(pin "TX Enable" output
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "ca273f71-5716-432b-97ad-955fdff0943f")
 		)
-		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"
-			(at 148.59 106.68 0)
+		(pin "RX" input
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "a30e0869-06a8-4e24-b463-08d53e4f8490")
 		)
-		(property "Description" "Full Speed USB to Full Handshake UART, QFN-20"
-			(at 148.59 106.68 0)
+		(pin "TX" output
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
-		)
-		(pin "9"
-			(uuid "f341c3b0-8b41-4b1f-bcd1-eb811a0fdb6c")
-		)
-		(pin "1"
-			(uuid "b62d9aa4-7dce-4128-bda3-8a5e7f19069e")
-		)
-		(pin "2"
-			(uuid "7e6a7aca-572a-4fac-a9ed-491a0f450346")
-		)
-		(pin "5"
-			(uuid "8a024a81-4544-4c58-8682-85b7c0285ce6")
-		)
-		(pin "16"
-			(uuid "51753cd3-f600-454e-a102-20e846d00481")
-		)
-		(pin "17"
-			(uuid "68c2ef17-f73d-4cb5-9a59-058d9f75255a")
-		)
-		(pin "19"
-			(uuid "84866b7d-57ea-4bf0-a892-f9c88ea82c46")
-		)
-		(pin "4"
-			(uuid "adac1659-595f-4e65-bc1a-3eee9b3998f4")
-		)
-		(pin "14"
-			(uuid "67c0237a-1750-40af-9f1c-78bf8d091bbf")
-		)
-		(pin "15"
-			(uuid "5cae6b97-f7ff-406d-a966-0aa2ee5c56fa")
-		)
-		(pin "11"
-			(uuid "ead0cf1b-7edd-4a68-8453-7941afed9b01")
-		)
-		(pin "20"
-			(uuid "fd4ef036-68aa-4e72-b24a-8ec85b80358b")
-		)
-		(pin "21"
-			(uuid "dc2a216e-3fb3-401b-a1a6-66bf32327a9d")
-		)
-		(pin "10"
-			(uuid "44669869-3352-4620-ab03-70e2842052bd")
-		)
-		(pin "18"
-			(uuid "ce9306c7-7e41-449e-92ed-d24fef7740a3")
-		)
-		(pin "6"
-			(uuid "e225c36d-79e5-443e-a061-8f20d8540da5")
-		)
-		(pin "7"
-			(uuid "d5f55b02-5653-4d51-8b1e-f59d1ca131e3")
-		)
-		(pin "12"
-			(uuid "9cd1c93e-7562-4bd0-b28f-990cd395920f")
-		)
-		(pin "3"
-			(uuid "6e997607-341c-448d-86d5-60057e467456")
-		)
-		(pin "8"
-			(uuid "000ca048-0df1-43a5-aaa7-e3a8824b95ab")
-		)
-		(pin "13"
-			(uuid "07151af0-7668-4d35-8424-09fd9191d24e")
+			(uuid "140b55d3-031e-40b6-bbdd-ed68dc1b99d8")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "U1")
-					(unit 1)
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 83.82)
+		(size 38.1 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "2bf4cea1-1398-4e51-b092-f0619f1c193c")
+		(property "Sheetname" "Isolated IO & Power"
+			(at 165.1 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated IO & Power.kicad_sch"
+			(at 165.1 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 60.96)
+		(size 40.64 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "70b8d09c-0e85-4c64-81a9-47ae182320c8")
+		(property "Sheetname" "RS485"
+			(at 218.44 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 218.44 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 255 0 1)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 83.82)
+		(size 33.02 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "ee1179b6-f3bc-4588-883b-b016ef356bec")
+		(property "Sheetname" "USB Connection"
+			(at 71.12 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB Connection.kicad_sch"
+			(at 71.12 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB D-" bidirectional
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c024b4f-954e-4652-bbdd-456bc9f92777")
+		)
+		(pin "USB D+" bidirectional
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb8f57e5-fc5d-4efb-bbdb-de1c0b3a1cac")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
+					(page "2")
 				)
 			)
 		)
