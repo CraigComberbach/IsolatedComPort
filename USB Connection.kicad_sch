@@ -1384,16 +1384,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 139.7 106.68 0)
+		(at 139.7 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07d3cc5f-fd02-43a2-a033-adbc944c2151")
-		(property "Reference" "#PWR04"
-			(at 139.7 113.03 0)
+		(uuid "3692c380-762c-4d54-ab90-af444d239b46")
+		(property "Reference" "#PWR01"
+			(at 139.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,8 +1401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 111.76 0)
+		(property "Value" "GND USB"
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 106.68 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 106.68 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 139.7 106.68 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,12 +1437,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4dc04f5-8f42-4b98-bf35-3384c0fb2d3e")
+			(uuid "a58fa4a5-7050-4fe4-b7a3-c914ad8fb9db")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/ee1179b6-f3bc-4588-883b-b016ef356bec"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1762,16 +1762,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 139.7 144.78 0)
+		(at 139.7 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "edd43df0-9040-4946-af5e-11f940648577")
-		(property "Reference" "#PWR01"
-			(at 139.7 151.13 0)
+		(uuid "f966ac33-ad59-493a-9c7a-ebdc9961a9b9")
+		(property "Reference" "#PWR04"
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,8 +1779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 149.86 0)
+		(property "Value" "GND USB"
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 144.78 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 144.78 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 139.7 144.78 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,12 +1815,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90276620-2931-46e8-a8e6-b8e92c89d483")
+			(uuid "35f87db2-81a0-416d-85b8-91ac22de0552")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/ee1179b6-f3bc-4588-883b-b016ef356bec"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

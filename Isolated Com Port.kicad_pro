@@ -396,11 +396,23 @@
     ],
     [
       "2bf4cea1-1398-4e51-b092-f0619f1c193c",
-      "Isolated IO & Power"
+      "Isolated IO"
+    ],
+    [
+      "bd340b72-bafa-4f3e-990a-72b0b14593fa",
+      "Isolated Power"
     ],
     [
       "70b8d09c-0e85-4c64-81a9-47ae182320c8",
       "RS485"
+    ],
+    [
+      "7afae546-ddb7-44ee-a86c-92b9ff977055",
+      "Level Changer TX"
+    ],
+    [
+      "14c9bd92-4126-4b19-b017-8e63c224ec20",
+      "Level Changer RX"
     ]
   ],
   "text_variables": {}
