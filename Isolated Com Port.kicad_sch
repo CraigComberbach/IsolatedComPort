@@ -523,36 +523,24 @@
 		)
 	)
 	(junction
-		(at 190.5 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09c0f044-c968-4af8-930f-32f77be5591e")
-	)
-	(junction
-		(at 182.88 81.28)
+		(at 167.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e55f8ac-0e58-4547-a97f-ac1df39600c1")
 	)
 	(junction
-		(at 236.22 104.14)
+		(at 165.1 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37463b44-c519-4a46-af1d-da20ca7da799")
-	)
-	(junction
-		(at 180.34 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70af4f4e-0fe7-42eb-b82f-01642714d31d")
+		(uuid "4c07ff77-e037-42d6-b20b-21729c791adb")
 	)
 	(no_connect
-		(at 274.32 109.22)
+		(at 259.08 119.38)
 		(uuid "b7b369aa-bbb1-4eac-9bcc-ffcc96f2a358")
 	)
 	(wire
 		(pts
-			(xy 269.24 93.98) (xy 241.3 93.98)
+			(xy 254 104.14) (xy 226.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +550,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 124.46) (xy 243.84 101.6)
+			(xy 228.6 121.92) (xy 228.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +560,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 101.6) (xy 269.24 101.6)
+			(xy 228.6 111.76) (xy 254 111.76)
 		)
 		(stroke
 			(width 0)
@@ -582,17 +570,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 180.34 83.82)
+			(xy 160.02 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cb4de16-5fe0-45ae-97a7-6d0e7b8617eb")
+		(uuid "117d5c87-c672-4ed9-ab88-9a9105f589e7")
 	)
 	(wire
 		(pts
-			(xy 243.84 91.44) (xy 269.24 91.44)
+			(xy 228.6 101.6) (xy 254 101.6)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +590,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 195.58 83.82)
+			(xy 165.1 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +600,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 180.34 83.82)
+			(xy 165.1 121.92) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 182.88 109.22)
+			(xy 180.34 119.38) (xy 167.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -632,17 +620,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350f607c-fd56-4146-adba-bcc00b0a5805")
-	)
-	(wire
-		(pts
-			(xy 134.62 71.12) (xy 134.62 76.2)
+			(xy 119.38 81.28) (xy 119.38 86.36)
 		)
 		(stroke
 			(width 0)
@@ -652,17 +630,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 119.38) (xy 236.22 119.38)
+			(xy 160.02 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46cd4609-ab8e-4d6e-a9c7-243ec1fc9d68")
+		(uuid "3a156c75-f885-4c0b-9cc3-6747203397b7")
 	)
 	(wire
 		(pts
-			(xy 195.58 124.46) (xy 180.34 124.46)
+			(xy 180.34 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -672,17 +650,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 190.5 119.38)
+			(xy 111.76 104.14) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63c11756-0a52-460a-97c0-cac95e3a538e")
+		(uuid "590d3a9e-fdd2-47de-af4c-50d3ca49c754")
 	)
 	(wire
 		(pts
-			(xy 231.14 124.46) (xy 243.84 124.46)
+			(xy 215.9 121.92) (xy 228.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -692,17 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 236.22 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b5df40-a0e0-477f-9b9b-6a8170ef9f07")
-	)
-	(wire
-		(pts
-			(xy 182.88 109.22) (xy 182.88 81.28)
+			(xy 167.64 119.38) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -712,17 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 195.58 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd05330-41a1-41ac-9b96-d824e23b11c3")
-	)
-	(wire
-		(pts
-			(xy 236.22 104.14) (xy 231.14 104.14)
+			(xy 220.98 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 109.22) (xy 266.7 104.14)
+			(xy 251.46 119.38) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -742,27 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847550d7-4efe-4693-8df9-aa0b2e3577f3")
-	)
-	(wire
-		(pts
-			(xy 175.26 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86135a60-6c11-4045-98c4-bf99a94316b9")
-	)
-	(wire
-		(pts
-			(xy 241.3 109.22) (xy 231.14 109.22)
+			(xy 226.06 119.38) (xy 215.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +710,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 99.06) (xy 241.3 109.22)
+			(xy 226.06 109.22) (xy 226.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +720,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 177.8 76.2)
+			(xy 160.02 86.36) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 93.98 83.82)
+			(xy 68.58 93.98) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 88.9) (xy 269.24 88.9)
+			(xy 251.46 99.06) (xy 254 99.06)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 104.14) (xy 269.24 104.14)
+			(xy 251.46 114.3) (xy 254 114.3)
 		)
 		(stroke
 			(width 0)
@@ -822,17 +760,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 119.38) (xy 195.58 119.38)
+			(xy 111.76 99.06) (xy 121.92 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9482ea11-0cec-48df-991f-ab83769abd96")
+		(uuid "a40f7289-3663-4b08-84b3-1ca660d02777")
 	)
 	(wire
 		(pts
-			(xy 231.14 81.28) (xy 243.84 81.28)
+			(xy 215.9 91.44) (xy 228.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +780,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 76.2) (xy 157.48 93.98)
+			(xy 142.24 86.36) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -853,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 137.16 76.2)
+			(xy 119.38 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +801,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 137.16 81.28)
+			(xy 111.76 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -873,27 +811,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 137.16 88.9)
+			(xy 111.76 93.98) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bedc8790-1c97-4e6c-a874-6032a28a88e8")
+		(uuid "bd9aaa38-a6c0-4c95-beae-24b562d2f690")
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 137.16 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf421b9a-013f-476a-b913-74756b97be22")
-	)
-	(wire
-		(pts
-			(xy 177.8 71.12) (xy 177.8 76.2)
+			(xy 162.56 81.28) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +831,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 76.2) (xy 154.94 93.98)
+			(xy 139.7 86.36) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -914,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 83.82) (xy 266.7 88.9)
+			(xy 251.46 93.98) (xy 251.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 231.14 83.82)
+			(xy 226.06 93.98) (xy 215.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 195.58 81.28)
+			(xy 167.64 91.44) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 96.52) (xy 269.24 96.52)
+			(xy 220.98 106.68) (xy 254 106.68)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 81.28) (xy 243.84 91.44)
+			(xy 228.6 91.44) (xy 228.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +892,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 93.98) (xy 241.3 83.82)
+			(xy 160.02 104.14) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98cf072-8076-41d6-9e56-3e7a209cf4a1")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 81.28) (xy 182.88 81.28)
+			(xy 160.02 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -984,17 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 137.16 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc008863-5556-49e1-856a-9c609c2d6e91")
-	)
-	(wire
-		(pts
-			(xy 236.22 104.14) (xy 236.22 96.52)
+			(xy 220.98 114.3) (xy 220.98 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 99.06) (xy 241.3 99.06)
+			(xy 254 109.22) (xy 226.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1014,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 93.98 81.28)
+			(xy 68.58 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +952,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 45.72) (xy 154.94 63.5)
+			(xy 139.7 55.88) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0.254)
@@ -1035,7 +963,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 45.72) (xy 157.48 63.5)
+			(xy 142.24 55.88) (xy 142.24 73.66)
 		)
 		(stroke
 			(width 0.254)
@@ -1044,9 +972,9 @@
 		)
 		(uuid "ff0c1458-6a40-4744-a155-a25188f41c79")
 	)
-	(text "1500V"
+	(text "1.5kV"
 		(exclude_from_sim no)
-		(at 156.21 85.09 90)
+		(at 140.97 95.25 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1054,9 +982,9 @@
 		)
 		(uuid "7f4565f7-f923-465d-81bf-dfb9d9aef710")
 	)
-	(text "1500V"
+	(text "3kV"
 		(exclude_from_sim no)
-		(at 156.21 54.61 90)
+		(at 140.97 64.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,74 +994,7 @@
 	)
 	(symbol
 		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 190.5 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16d03c90-5ffd-4b31-b3f7-b536cf3a71de")
-		(property "Reference" "#PWR019"
-			(at 190.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5VDC DUT"
-			(at 190.5 99.06 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "918a1620-0f3d-440e-af72-c98c1a33be5e")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 266.7 83.82 0)
+		(at 251.46 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1141,8 +1002,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b23cbe-e2e4-4df3-8484-33e48381d54b")
-		(property "Reference" "#PWR020"
-			(at 266.7 87.63 0)
+		(property "Reference" "#PWR03"
+			(at 251.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1012,7 @@
 			)
 		)
 		(property "Value" "5VDC DUT"
-			(at 266.7 81.28 0)
+			(at 251.46 91.44 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1160,7 +1021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 83.82 0)
+			(at 251.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 83.82 0)
+			(at 251.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 266.7 83.82 0)
+			(at 251.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1053,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "#PWR020")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1200,7 +1061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 109.22 0)
+		(at 251.46 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1208,8 +1069,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d95480-0b5d-413a-b2bc-06099e4e2bcd")
-		(property "Reference" "#PWR021"
-			(at 266.7 115.57 0)
+		(property "Reference" "#PWR04"
+			(at 251.46 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1079,7 @@
 			)
 		)
 		(property "Value" "GND DUT"
-			(at 266.7 114.3 0)
+			(at 251.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 109.22 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 109.22 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 109.22 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1119,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "#PWR021")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1266,16 +1127,16 @@
 	)
 	(symbol
 		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 177.8 71.12 0)
+		(at 162.56 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a24ef6e9-593f-4974-a265-5a4fe42f95ef")
-		(property "Reference" "#PWR023"
-			(at 177.8 74.93 0)
+		(uuid "b49fa5da-c630-4f0a-8f08-35ee2325e77e")
+		(property "Reference" "#PWR02"
+			(at 162.56 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,8 +1144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5VDC DUT"
-			(at 177.8 68.58 0)
+		(property "Value" "3.3VDC"
+			(at 162.56 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1293,7 +1154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 71.12 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 71.12 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 177.8 71.12 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,12 +1181,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b208205-77a0-4dec-9b9a-352fcae0b59b")
+			(uuid "f8838f47-126d-422c-8b11-9cb61dc9b178")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "#PWR023")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1333,7 +1194,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x07_MountingPin")
-		(at 274.32 96.52 0)
+		(at 259.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,8 +1202,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11dd820-e4fa-46bf-98c2-cb13461b20cd")
-		(property "Reference" "J2"
-			(at 276.86 95.6055 0)
+		(property "Reference" "J1"
+			(at 261.62 105.7655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1212,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_MountingPin"
-			(at 276.86 98.1455 0)
+			(at 261.62 108.3055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 96.52 0)
+			(at 259.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 96.52 0)
+			(at 259.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1239,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 96.52 0)
+			(at 259.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1274,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1421,7 +1282,7 @@
 	)
 	(symbol
 		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 134.62 71.12 0)
+		(at 119.38 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1429,8 +1290,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e019bcbc-f527-44c6-8d20-e67e44ef13f1")
-		(property "Reference" "#PWR022"
-			(at 134.62 74.93 0)
+		(property "Reference" "#PWR01"
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1300,7 @@
 			)
 		)
 		(property "Value" "5VDC USB"
-			(at 134.62 68.58 0)
+			(at 119.38 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1448,7 +1309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 71.12 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 71.12 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 134.62 71.12 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,93 +1341,14 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 195.58 116.84)
-		(size 35.56 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "14c9bd92-4126-4b19-b017-8e63c224ec20")
-		(property "Sheetname" "Level Changer RX"
-			(at 195.58 116.1284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Level Changer.kicad_sch"
-			(at 195.58 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Out Vhigh" output
-			(at 195.58 124.46 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7f4b7127-90b6-4dfa-b33d-955eda97c310")
-		)
-		(pin "Ref High" input
-			(at 195.58 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e0a82de2-914f-49d9-a620-1cab378d14f3")
-		)
-		(pin "Ref Low" input
-			(at 231.14 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2d2e8ca6-7018-4279-9f39-3de9bf943eee")
-		)
-		(pin "In Vlow" input
-			(at 231.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "499952de-5303-48d6-8497-367cadc0535a")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 78.74)
+		(at 78.74 88.9)
 		(size 33.02 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -1579,7 +1361,7 @@
 		)
 		(uuid "20c906b9-666a-4d7a-8032-5080b03787b8")
 		(property "Sheetname" "USB To UART"
-			(at 93.98 78.0284 0)
+			(at 78.74 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1370,7 @@
 			)
 		)
 		(property "Sheetfile" "USB To UART.kicad_sch"
-			(at 93.98 97.1046 0)
+			(at 78.74 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1380,7 @@
 			)
 		)
 		(pin "USB D-" bidirectional
-			(at 93.98 83.82 180)
+			(at 78.74 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1390,7 @@
 			(uuid "d46d24a1-2ca0-4831-8b9d-ff271ab5348c")
 		)
 		(pin "USB D+" bidirectional
-			(at 93.98 81.28 180)
+			(at 78.74 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1400,7 @@
 			(uuid "ba0c4e78-fa27-4faa-8c19-1b44b5ccdc21")
 		)
 		(pin "TX Enable" output
-			(at 127 88.9 0)
+			(at 111.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1410,7 @@
 			(uuid "ca273f71-5716-432b-97ad-955fdff0943f")
 		)
 		(pin "RX" input
-			(at 127 83.82 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1420,7 @@
 			(uuid "a30e0869-06a8-4e24-b463-08d53e4f8490")
 		)
 		(pin "TX" output
-			(at 127 81.28 0)
+			(at 111.76 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1430,7 @@
 			(uuid "140b55d3-031e-40b6-bbdd-ed68dc1b99d8")
 		)
 		(pin "GPIO" bidirectional
-			(at 127 93.98 0)
+			(at 111.76 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1448,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 73.66)
+		(at 121.92 83.82)
 		(size 38.1 22.86)
 		(stroke
 			(width 0.1524)
@@ -1678,7 +1460,7 @@
 		)
 		(uuid "2bf4cea1-1398-4e51-b092-f0619f1c193c")
 		(property "Sheetname" "Isolated IO"
-			(at 137.16 72.9484 0)
+			(at 121.92 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1469,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolated IO.kicad_sch"
-			(at 137.16 92.0246 0)
+			(at 121.92 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1479,7 @@
 			)
 		)
 		(pin "Out4 A" output
-			(at 137.16 93.98 180)
+			(at 121.92 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1489,7 @@
 			(uuid "d7ec68d3-c232-4774-8d2a-8b045eb5ddcd")
 		)
 		(pin "In2 A" input
-			(at 137.16 83.82 180)
+			(at 121.92 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1499,7 @@
 			(uuid "34ed1fcf-ba1d-4a9f-9818-2defef4e754d")
 		)
 		(pin "In3 A" input
-			(at 137.16 88.9 180)
+			(at 121.92 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1509,7 @@
 			(uuid "8f57cf5a-ed79-4bae-92db-9a5862434c81")
 		)
 		(pin "In1 A" input
-			(at 137.16 81.28 180)
+			(at 121.92 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1519,7 @@
 			(uuid "8a79afbb-1def-424a-a6b5-51c37f02e365")
 		)
 		(pin "Power A" input
-			(at 137.16 76.2 180)
+			(at 121.92 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1529,7 @@
 			(uuid "29c357d7-15d7-46ad-b4df-bca5dd410675")
 		)
 		(pin "Out3 B" output
-			(at 175.26 88.9 0)
+			(at 160.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1539,7 @@
 			(uuid "80f6ade8-4571-4764-a0f7-a50479efd24c")
 		)
 		(pin "Out1 B" output
-			(at 175.26 81.28 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1549,7 @@
 			(uuid "47c23f0b-d0eb-41d0-a086-e6bb696b05f1")
 		)
 		(pin "In4 B" input
-			(at 175.26 93.98 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1559,7 @@
 			(uuid "864025f4-fb95-4400-80b6-ce95aa0bd248")
 		)
 		(pin "Out2 B" output
-			(at 175.26 83.82 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,8 +1568,8 @@
 			)
 			(uuid "ac1cc099-f78a-4e2b-8685-7e7ff202bfc7")
 		)
-		(pin "Power B" input
-			(at 175.26 76.2 0)
+		(pin "Power B" output
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1587,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 78.74)
+		(at 180.34 88.9)
 		(size 35.56 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -1818,7 +1600,7 @@
 		)
 		(uuid "70b8d09c-0e85-4c64-81a9-47ae182320c8")
 		(property "Sheetname" "RS485"
-			(at 195.58 78.0284 0)
+			(at 180.34 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1609,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 195.58 97.1046 0)
+			(at 180.34 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,28 +1619,8 @@
 				(hide yes)
 			)
 		)
-		(pin "Termination" output
-			(at 195.58 93.98 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9798bc45-91b5-40c7-83e2-88c3d9bcba4c")
-		)
-		(pin "TX Enable" output
-			(at 195.58 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "73727f6d-fa50-4c5d-afe0-ceed17d1a1ef")
-		)
 		(pin "RX" output
-			(at 195.58 83.82 180)
+			(at 180.34 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1630,7 @@
 			(uuid "954c2589-3403-4336-b835-32ca1babaaa3")
 		)
 		(pin "RS485+" bidirectional
-			(at 231.14 81.28 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1640,7 @@
 			(uuid "1536d2c6-b07d-42e0-88f8-eb8434dd2746")
 		)
 		(pin "RS485-" bidirectional
-			(at 231.14 83.82 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1650,7 @@
 			(uuid "9c45316b-a2c4-4263-a6a1-61202b90c95c")
 		)
 		(pin "TX" input
-			(at 195.58 81.28 180)
+			(at 180.34 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,6 +1658,26 @@
 				(justify left)
 			)
 			(uuid "2d276973-92d7-4fec-a982-a38715c89f89")
+		)
+		(pin "TX Enable" input
+			(at 180.34 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a29fa69-6ebb-45c8-a4ff-069ba5bd5ed9")
+		)
+		(pin "Termination" input
+			(at 180.34 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2cb1944-ff3d-407a-bf79-a8c4f08d86a6")
 		)
 		(instances
 			(project "Isolated Com Port"
@@ -1906,8 +1688,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 101.6)
-		(size 35.56 10.16)
+		(at 180.34 111.76)
+		(size 35.56 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1917,8 +1699,8 @@
 			(color 0 255 0 1.0000)
 		)
 		(uuid "7afae546-ddb7-44ee-a86c-92b9ff977055")
-		(property "Sheetname" "Level Changer TX"
-			(at 195.58 100.8884 0)
+		(property "Sheetname" "Level Changer"
+			(at 180.34 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1709,7 @@
 			)
 		)
 		(property "Sheetfile" "Level Changer.kicad_sch"
-			(at 195.58 112.3446 0)
+			(at 180.34 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,45 +1718,55 @@
 				(hide yes)
 			)
 		)
-		(pin "Out Vhigh" output
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "857a25a4-d7af-435f-b2e5-56c54f0ba687")
-		)
-		(pin "Ref High" input
-			(at 231.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9cc06bba-5044-45c9-b450-d3a9d09f5069")
-		)
-		(pin "Ref Low" input
-			(at 195.58 104.14 180)
+		(pin "A1" bidirectional
+			(at 180.34 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1f2109de-5c56-45bf-bf9a-4ab3b1fb8729")
+			(uuid "b02c71d4-1bcf-425e-91fe-fe36d4ac5ea1")
 		)
-		(pin "In Vlow" input
-			(at 195.58 109.22 180)
+		(pin "A2" bidirectional
+			(at 180.34 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8553e650-afe7-41a7-9873-fa5ad9f27be7")
+			(uuid "59d1c03d-d0c5-4b6b-a513-9ce3b1f8cfa2")
+		)
+		(pin "B1" bidirectional
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc5f033b-8db3-4923-9c3e-f45bcda7c600")
+		)
+		(pin "B2" bidirectional
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0dee6f98-0936-43d2-aaf6-d0f0883293f1")
+		)
+		(pin "V_{DUT}" input
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fa47ad0-ae39-4048-aa2c-fd8b88a22a26")
 		)
 		(instances
 			(project "Isolated Com Port"
@@ -1985,7 +1777,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 43.18)
+		(at 121.92 50.8)
 		(size 38.1 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -1997,7 +1789,7 @@
 		)
 		(uuid "bd340b72-bafa-4f3e-990a-72b0b14593fa")
 		(property "Sheetname" "Isolated Power"
-			(at 137.16 42.4684 0)
+			(at 121.92 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +1798,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolated Power.kicad_sch"
-			(at 137.16 66.6246 0)
+			(at 121.92 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +1816,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 78.74)
+		(at 35.56 88.9)
 		(size 33.02 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -2037,7 +1829,7 @@
 		)
 		(uuid "ee1179b6-f3bc-4588-883b-b016ef356bec")
 		(property "Sheetname" "USB Connection"
-			(at 50.8 78.0284 0)
+			(at 35.56 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +1838,7 @@
 			)
 		)
 		(property "Sheetfile" "USB Connection.kicad_sch"
-			(at 50.8 86.9446 0)
+			(at 35.56 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +1848,7 @@
 			)
 		)
 		(pin "USB D-" bidirectional
-			(at 83.82 83.82 0)
+			(at 68.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +1858,7 @@
 			(uuid "1c024b4f-954e-4652-bbdd-456bc9f92777")
 		)
 		(pin "USB D+" bidirectional
-			(at 83.82 81.28 0)
+			(at 68.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

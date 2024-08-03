@@ -5,38 +5,35 @@
 	(uuid "b883cb66-8eb8-4e32-b8b3-5ea8c144b89c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Converter_DCDC:ISU0205S05"
+		(symbol "C_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
+			(property "Reference" "C"
+				(at 2.54 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "ISU0205S05"
-				(at 0 8.89 0)
+			(property "Value" "Capacitor Ceramic 1uF 25V X5R 0603"
+				(at 2.54 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ISU02_SMD"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf"
-				(at 0 -11.43 0)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "XP Power 2W Isolated DC/DC Converter Module, 5V Output Voltage, 4.5-12V Input Voltage"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +50,52 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC/DC Converter"
+			(property "Description" "Unpolarized capacitor"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A105KA8NNNC"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "1µF"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +104,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*XP?POWER*ISU02*SMD*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,24 +113,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "ISU0205S05_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "C_1_0_1"
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0 -6.35)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -97,58 +128,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 6.35)
-					)
-					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -156,11 +139,11 @@
 					)
 				)
 			)
-			(symbol "ISU0205S05_1_1"
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "-VIN"
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,28 +158,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "ON/~{OFF}"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,78 +169,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -2.54 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -5.08 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -421,6 +314,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Prototype Schematic Symbols - Isolated ComPort:5VDC"
 			(power)
 			(pin_numbers hide)
@@ -514,6 +564,371 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Prototype Schematic Symbols - Isolated ComPort:Regulator Linear LDO 3.3V±1% 300mA OTP OCP SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Regulator Linear LDO 3.3V±1% 300mA OTP OCP SOT23-5"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv740p"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Vout=3.3V Iout=300mA Vin=5.5V Tolerance=1% Options=LDO,OTP,OCP Footprint=SOT23-5"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vout" "3.3V"
+				(at 7.62 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TLV74033PDBVR"
+				(at 7.62 -8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(symbol "Regulator Linear LDO 3.3V±1% 300mA OTP OCP SOT23-5_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Prototype Schematic Symbols - Isolated ComPort:Regulator SMPS Module 5V±12% 400mA 4.5-5.5V 130kHz OCP(limited) Isolated(3kV) SMD-14(5)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Regulator SMPS Module Vout=5V±12% Iout=400mA Vin=4.5-5.5V Fsw=130kHz Options=OCP(limited),Isolated(3kV) Footprint=SMD-14(5)"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Regulator SMPS Module Vout=5V±12% Iout=400mA Vin=4.5-5.5V Fsw=130kHz Options=OCP(limited),Isolated(3kV) Footprint=SMD-14(5)"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NXE2S0505MC-R7"
+				(at 10.16 -8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Voltage" "5V"
+				(at 8.89 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Regulator SMPS Module 5V±12% 400mA 4.5-5.5V 130kHz OCP(limited) Isolated(3kV) SMD-14(5)_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "NA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -748,14 +1163,36 @@
 		)
 	)
 	(junction
-		(at 88.9 76.2)
+		(at 236.22 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6219160-716e-4e77-9515-6d3cd607e695")
+		(uuid "acde97a2-f8cc-4a29-bd1c-838846056b27")
+	)
+	(junction
+		(at 71.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef5b908-ee7d-4fbe-b16e-6bbe5c098c3d")
+	)
+	(junction
+		(at 132.08 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b236fa3c-7763-4cf2-8ba3-ae73c41c5156")
+	)
+	(junction
+		(at 190.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e22f4f11-fb82-4b42-851f-6716c438d13b")
+	)
+	(no_connect
+		(at 226.06 101.6)
+		(uuid "d0dd6f47-1c12-41a6-b086-36aa5afe7d43")
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 119.38 76.2)
+			(xy 114.3 91.44) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 116.84 81.28)
+			(xy 116.84 96.52) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -775,27 +1212,77 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 76.2)
+			(xy 190.5 91.44) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1582857e-6ff6-4f85-b503-d3cfacabc91b")
+		(uuid "24e81911-ba08-4376-aaef-471b7cdb1597")
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 88.9 81.28)
+			(xy 127 91.44) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c5c6ae9-8f1e-4531-93e6-7871b401f5d1")
+		(uuid "261f6cc4-cc80-45bd-ba05-4f2aa1dc9da8")
 	)
 	(wire
 		(pts
-			(xy 93.98 116.84) (xy 93.98 119.38)
+			(xy 71.12 91.44) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2966fe9e-06ed-4fd9-80b5-1dcdf607a954")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ece3ab6-0e6c-4182-a216-3c2e885ff281")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5fa6fa-88b0-4e3a-81fe-1f106511ee60")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420fa1c7-b36a-47b0-882a-ed927bf612e9")
+	)
+	(wire
+		(pts
+			(xy 236.22 101.6) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4addc60e-e464-40fd-ac5d-95e2a1f935b0")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +1292,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 114.3 119.38)
+			(xy 203.2 101.6) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fa6490-8a48-497f-a809-cfbebc72bb76")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691651be-5969-48b8-9ab0-062cf33e76be")
+	)
+	(wire
+		(pts
+			(xy 132.08 101.6) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +1322,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 91.44 81.28)
+			(xy 132.08 91.44) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718adfc0-2e78-4c1a-9588-fe1a61af98ae")
+	)
+	(wire
+		(pts
+			(xy 236.22 88.9) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7292e132-a1c0-4c42-94dc-e6b80bab707d")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d710037-1802-4634-bff1-2852d982ab18")
+	)
+	(wire
+		(pts
+			(xy 86.36 96.52) (xy 88.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -825,17 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 91.44 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "871c22fb-a65f-455d-910d-7492f0613049")
-	)
-	(wire
-		(pts
-			(xy 88.9 91.44) (xy 88.9 86.36)
+			(xy 86.36 96.52) (xy 86.36 106.68)
 		)
 		(stroke
 			(width 0)
@@ -845,17 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970571a7-3255-4d44-87f4-53d9f4041f3c")
-	)
-	(wire
-		(pts
-			(xy 88.9 76.2) (xy 91.44 76.2)
+			(xy 83.82 91.44) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +1382,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 93.98 109.22)
+			(xy 236.22 93.98) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2248e34-b9b6-422f-963d-f72c8bb37a2c")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 119.38 81.28)
+			(xy 116.84 106.68) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 114.3 109.22)
+			(xy 132.08 88.9) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -893,9 +1420,57 @@
 		)
 		(uuid "dedc2685-77f8-4b54-88a3-52677a760a08")
 	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb6a7bf-8733-455d-ac29-5dc866fd7af4")
+	)
+	(text_box "4.7uF\n15uH"
+		(exclude_from_sim no)
+		(at 43.18 83.82 0)
+		(size 15.24 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9018757d-be50-483c-aab6-fc5f7948680c")
+	)
+	(text_box "10uF\n22uH"
+		(exclude_from_sim no)
+		(at 144.78 91.44 0)
+		(size 15.24 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "badbb8d3-70a1-495c-a8a6-5fd54aa9bd2f")
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 113.03 0)
+		(at 132.08 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -903,8 +1478,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a5b286-029a-4e16-b56a-39b5f16284c4")
-		(property "Reference" "C5"
-			(at 118.11 111.7599 0)
+		(property "Reference" "C4"
+			(at 135.89 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +1488,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 118.11 114.2999 0)
+			(at 135.89 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +1497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.2652 116.84 0)
+			(at 133.0452 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +1506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 113.03 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +1515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 113.03 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,42 +1532,34 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 119.38 71.12 0)
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Regulator Linear LDO 3.3V±1% 300mA OTP OCP SOT23-5")
+		(at 215.9 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17819f16-c29a-4662-88e1-75317a19bf2e")
-		(property "Reference" "#PWR016"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5VDC DUT"
-			(at 119.38 68.58 0)
+		(uuid "06a38a02-69d6-4e31-8a3d-88865155856a")
+		(property "Reference" "U4"
+			(at 208.28 87.63 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 71.12 0)
+		(property "Value" "Regulator Linear LDO 3.3V±1% 300mA OTP OCP SOT23-5"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,8 +1567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 71.12 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,22 +1576,72 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 119.38 71.12 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv740p"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Description" "Linear Vout=3.3V Iout=300mA Vin=5.5V Tolerance=1% Options=LDO,OTP,OCP Footprint=SOT23-5"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vout" "3.3V"
+			(at 223.52 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV74033PDBVR"
+			(at 223.52 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3"
+			(uuid "0e928e09-e857-4873-a7e0-b59ffce257a3")
 		)
 		(pin "1"
-			(uuid "03b3bbb4-6ac8-4c81-ba1b-ae2061b43620")
+			(uuid "9d863dc5-4fce-4b0a-bbd3-175d876f04f1")
+		)
+		(pin "5"
+			(uuid "3293318d-b8af-4357-88bb-4c2929e2a68e")
+		)
+		(pin "2"
+			(uuid "d2614687-1c68-4466-9ba9-2b8ba7ba0bab")
+		)
+		(pin "4"
+			(uuid "9fcf0985-f6fb-4baf-b125-3297e4b128fd")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR016")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1032,7 +1649,7 @@
 	)
 	(symbol
 		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 114.3 106.68 0)
+		(at 132.08 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1040,8 +1657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b365b06-6b31-4191-a50e-e91b50bf2ae9")
-		(property "Reference" "#PWR030"
-			(at 114.3 110.49 0)
+		(property "Reference" "#PWR021"
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1667,7 @@
 			)
 		)
 		(property "Value" "5VDC DUT"
-			(at 114.3 104.14 0)
+			(at 132.08 86.36 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1059,7 +1676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 106.68 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 106.68 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 114.3 106.68 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,24 +1708,24 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 88.9 71.12 0)
+		(lib_id "power:GND")
+		(at 190.5 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d07bf31-8c62-4a4f-910b-06d988c721d4")
-		(property "Reference" "#PWR014"
-			(at 88.9 74.93 0)
+		(uuid "38fd2c55-3208-4ba4-b341-c0451c2ad2b1")
+		(property "Reference" "#PWR024"
+			(at 190.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,9 +1733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5VDC USB"
-			(at 88.9 68.58 0)
-			(do_not_autoplace yes)
+		(property "Value" "GND DUT"
+			(at 190.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 71.12 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 71.12 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,8 +1759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 88.9 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,29 +1769,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "e463ae8b-0f42-434e-af5d-6241698a6ff8")
+			(uuid "3b7aa2f5-7f73-426b-a3d5-916e730edbdf")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "Device:C")
-		(at 93.98 113.03 0)
+		(at 190.5 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a59e737-7ff1-444a-9c53-97dc3d814184")
-		(property "Reference" "C4"
-			(at 97.79 111.7599 0)
+		(uuid "3d876fd5-de2b-459e-b349-8f0d7fddc839")
+		(property "Reference" "C5"
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,17 +1800,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 97.79 114.2999 0)
+		(property "Value" "Capacitor Ceramic 1uF 25V X5R 0603"
+			(at 193.04 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 94.9452 116.84 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 191.4652 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 113.03 0)
+			(at 190.5 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1829,113 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 113.03 0)
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KA8NNNC"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1µF"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "fa94e74a-75de-4fe8-aeed-0db09f9229bd")
+		)
+		(pin "1"
+			(uuid "d87ea8cf-0705-4110-b5f2-d216cc0e1e2a")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a59e737-7ff1-444a-9c53-97dc3d814184")
+		(property "Reference" "C3"
+			(at 74.93 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 74.93 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.0852 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,24 +1952,31 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 91.44 0)
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Regulator SMPS Module 5V±12% 400mA 4.5-5.5V 130kHz OCP(limited) Isolated(3kV) SMD-14(5)")
+		(at 101.6 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67443c48-5a04-4e8c-9c24-f1f4559628a6")
-		(property "Reference" "#PWR015"
-			(at 119.38 97.79 0)
+		(uuid "6629a36d-8721-47e6-af62-493f5f92a0eb")
+		(property "Reference" "U3"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Regulator SMPS Module Vout=5V±12% Iout=400mA Vin=4.5-5.5V Fsw=130kHz Options=OCP(limited),Isolated(3kV) Footprint=SMD-14(5)"
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,16 +1984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND DUT"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" ""
-			(at 119.38 91.44 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1994,110 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 91.44 0)
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Regulator SMPS Module Vout=5V±12% Iout=400mA Vin=4.5-5.5V Fsw=130kHz Options=OCP(limited),Isolated(3kV) Footprint=SMD-14(5)"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NXE2S0505MC-R7"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "5V"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "3dc2399d-f967-4444-bb61-241c65025b33")
+		)
+		(pin "7"
+			(uuid "2e06aa05-8fae-47bd-a759-ccc85663cbcb")
+		)
+		(pin "3"
+			(uuid "511d03a2-49a6-416e-8146-ff2eb9a90063")
+		)
+		(pin "14"
+			(uuid "a69ffa82-9e42-4214-9bdc-a214adfb9e54")
+		)
+		(pin "1"
+			(uuid "dc2558a8-6b37-4878-b2b0-51b707367e40")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67443c48-5a04-4e8c-9c24-f1f4559628a6")
+		(property "Reference" "#PWR020"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND DUT"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +2106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 91.44 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +2120,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1302,7 +2128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 119.38 0)
+		(at 132.08 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1310,8 +2136,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d032161-7ddb-42c3-8cca-6d3abdd5ec7f")
-		(property "Reference" "#PWR028"
-			(at 114.3 125.73 0)
+		(property "Reference" "#PWR022"
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +2146,7 @@
 			)
 		)
 		(property "Value" "GND DUT"
-			(at 114.3 124.46 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +2154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 119.38 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +2163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 119.38 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +2172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 119.38 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,24 +2186,24 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
-		(at 93.98 106.68 0)
+		(lib_id "power:GND")
+		(at 236.22 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93d92a0b-c3df-40a5-a450-1165207e3864")
-		(property "Reference" "#PWR029"
-			(at 93.98 110.49 0)
+		(uuid "7103fb14-0ddc-4fb3-9dd2-570caf8dcb42")
+		(property "Reference" "#PWR027"
+			(at 236.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,9 +2211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5VDC USB"
-			(at 93.98 104.14 0)
-			(do_not_autoplace yes)
+		(property "Value" "GND DUT"
+			(at 236.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +2220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 106.68 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +2229,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 106.68 0)
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b265c15-0b1e-4de9-bbfa-d0b9eaa7458d")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
+		(at 236.22 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82869466-35d7-4437-a789-8f1e168861f9")
+		(property "Reference" "#PWR026"
+			(at 236.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3VDC"
+			(at 236.22 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +2305,141 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5VDC\""
-			(at 93.98 106.68 0)
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dde90954-edf5-4ca4-a204-73b87aa98f13")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 80.01 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8618b2d6-c7fc-4d29-9e5a-c6b88279c477")
+		(property "Reference" "L1"
+			(at 74.93 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 83.82 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9312e26b-6cf8-44fb-a454-d250662c8ce4")
+		)
+		(pin "2"
+			(uuid "416f8cd9-0a6f-49ff-b27d-5941eb9c5488")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
+		(at 71.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d92a0b-c3df-40a5-a450-1165207e3864")
+		(property "Reference" "#PWR017"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5VDC USB"
+			(at 71.12 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5VDC\""
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,107 +2453,24 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR029")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Converter_DCDC:ISU0205S05")
-		(at 104.14 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acd737eb-00d5-41b1-80e5-9adf4c9de52e")
-		(property "Reference" "U6"
-			(at 95.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISU0205S05"
-			(at 107.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ISU02_SMD"
-			(at 104.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf"
-			(at 104.14 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "XP Power 2W Isolated DC/DC Converter Module, 5V Output Voltage, 4.5-12V Input Voltage"
-			(at 104.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "23ffb74b-5815-40e5-b81e-8984eb7f4f1a")
-		)
-		(pin "14"
-			(uuid "a9eb86d2-1619-4df5-9621-201403b1a439")
-		)
-		(pin "9"
-			(uuid "70bde212-df50-4f1c-a3b3-7b6b45617974")
-		)
-		(pin "2"
-			(uuid "101a8df1-17f5-4a3b-b801-e3a863b4523d")
-		)
-		(pin "8"
-			(uuid "be3a1818-e56e-4201-8b84-fda172274b44")
-		)
-		(pin "1"
-			(uuid "a1ba45c0-66b7-402b-bec1-1f6da2d2fa03")
-		)
-		(pin "6"
-			(uuid "38e02ad3-48d2-488e-9700-965348a52247")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 88.9 91.44 0)
+		(lib_id "power:GND")
+		(at 203.2 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfbb4329-b872-4fe2-96b1-0dd90d813265")
-		(property "Reference" "#PWR013"
-			(at 88.9 97.79 0)
+		(uuid "9e8c0f3e-cfbb-4cf3-a5d4-8e358f902856")
+		(property "Reference" "#PWR025"
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,8 +2478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND USB"
-			(at 88.9 96.52 0)
+		(property "Value" "GND DUT"
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +2487,71 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 91.44 0)
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4468d18e-b554-42dd-a763-1fb8d2951d71")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 123.19 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3d3d7e4-3fd7-4b13-800e-5dc215879b13")
+		(property "Reference" "L2"
+			(at 118.11 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 127 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +2560,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 91.44 0)
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3f7a2ca-2732-4caf-8f3e-be9fdcf2ed9f")
+		)
+		(pin "2"
+			(uuid "435a5961-e234-4550-8b48-9a4304688443")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 86.36 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfbb4329-b872-4fe2-96b1-0dd90d813265")
+		(property "Reference" "#PWR019"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND USB"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +2638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 88.9 91.44 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,41 +2652,44 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 93.98 119.38 0)
+		(lib_name "C_1")
+		(lib_id "Device:C")
+		(at 236.22 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49cad3a-6587-479e-926a-c22e89a2722a")
-		(property "Reference" "#PWR026"
-			(at 93.98 125.73 0)
+		(uuid "dc0d1170-e814-498d-9631-edd2c803766b")
+		(property "Reference" "C6"
+			(at 233.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "Capacitor Ceramic 1uF 25V X5R 0603"
+			(at 233.68 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND USB"
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 235.2548 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +2698,112 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 119.38 0)
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KA8NNNC"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1µF"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "7e9751a7-a548-4165-ab8e-04b9fd49c93d")
+		)
+		(pin "1"
+			(uuid "37ef9f45-86c2-4141-9dd5-bdae66f357a1")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 71.12 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49cad3a-6587-479e-926a-c22e89a2722a")
+		(property "Reference" "#PWR018"
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND USB"
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 93.98 119.38 0)
+			(at 71.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +2826,74 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
-					(reference "#PWR026")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
+		(at 190.5 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7028390-276d-4468-9d1d-6a3b21be07a0")
+		(property "Reference" "#PWR023"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5VDC DUT"
+			(at 190.5 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5VDC\""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec25fa9e-b8c4-4400-8df4-f56fb1bcea41")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/bd340b72-bafa-4f3e-990a-72b0b14593fa"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

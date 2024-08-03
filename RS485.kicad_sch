@@ -1007,7 +1007,7 @@
 		(uuid "33bcbadf-3ab5-4f55-9487-8c229ec51985")
 	)
 	(hierarchical_label "Termination"
-		(shape output)
+		(shape input)
 		(at 149.86 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1019,7 +1019,7 @@
 		(uuid "3f3d5868-a265-4dfe-b765-cc1d4794b3f8")
 	)
 	(hierarchical_label "TX Enable"
-		(shape output)
+		(shape input)
 		(at 96.52 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1076,7 +1076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1d0294-fbbd-4b39-a380-c49fdd85880b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR031"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "#PWR017")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1143,7 +1143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "710f19cd-052f-441d-af73-a5e4df163a7d")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 129.8859 105.41 0)
 			(effects
 				(font
@@ -1228,7 +1228,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b5f25f-cde0-4cc9-9105-85f421ac89eb")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -1294,7 +1294,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1310,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0156616-4a0b-4a13-a1f0-838f80c322a1")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 69.85 114.2999 0)
 			(effects
 				(font
@@ -1364,7 +1364,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a19d347b-4e84-4689-ba8f-ee172151dd0f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b089e4c4-da53-46f9-854c-d02807db81bf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR032"
 			(at 119.38 148.59 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "#PWR018")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5dad7cc-4568-4da4-ae2d-14cda125133d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 66.04 113.03 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/70b8d09c-0e85-4c64-81a9-47ae182320c8"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

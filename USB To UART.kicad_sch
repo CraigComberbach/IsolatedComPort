@@ -630,7 +630,7 @@
 				)
 			)
 			(property "Manufacturers PN" "FT231XQ"
-				(at 0 22.86 0)
+				(at 8.89 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e7df81a-73ba-41c3-b8e7-3ed56e20186b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc6a58c-2601-4b56-83b2-b06e2482b163")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 185.42 54.61 0)
 			(effects
 				(font
@@ -1807,7 +1807,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1947,7 +1947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af325c56-ffd0-441c-8aea-5c0668cfe6a1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 124.46 135.89 0)
 			(effects
 				(font
@@ -1997,7 +1997,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7520aaa-7d6a-48ff-b356-697fe78dac9b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd315a7e-0687-4012-847f-22d3ee7bda1f")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 179.07 72.7074 90)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffde838f-3735-4f80-a701-6a554ed3d998")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 193.04 72.7074 90)
 			(effects
 				(font
@@ -2482,7 +2482,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)

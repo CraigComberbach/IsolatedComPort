@@ -1417,7 +1417,7 @@
 		(uuid "8b2632b3-9058-4767-9daa-20a70b595b83")
 	)
 	(hierarchical_label "Power B"
-		(shape input)
+		(shape output)
 		(at 152.4 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1462,7 +1462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102a7c60-23a2-4cef-bf96-1b01769cc090")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -1512,7 +1512,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/2bf4cea1-1398-4e51-b092-f0619f1c193c"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1598,7 +1598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23baf64a-9480-4b14-aaa9-99e9a198a4f2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -1648,7 +1648,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/2bf4cea1-1398-4e51-b092-f0619f1c193c"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1734,7 +1734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f538754-9d6d-4195-9ed9-9788f886dc58")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -1784,7 +1784,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/2bf4cea1-1398-4e51-b092-f0619f1c193c"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1800,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65debcb-4c67-44a3-9ef7-96fdb1f54fb3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -1850,7 +1850,7 @@
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/2bf4cea1-1398-4e51-b092-f0619f1c193c"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1864,10 +1864,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f53a2eb5-e9c0-42b3-b1e8-f5c2f05bb474")
 		(property "Reference" "U2"
-			(at 124.46 73.66 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1874,7 @@
 			)
 		)
 		(property "Value" "Si8641BB-B-IU"
-			(at 124.46 76.2 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
