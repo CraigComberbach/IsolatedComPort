@@ -5,166 +5,6 @@
 	(uuid "391706a5-83da-449b-b237-0ad652b69aa3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D1"
-				(at -0.3174 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LED"
-				(at -2.8574 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode Red"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 0 0 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Prototype Schematic Symbols - Isolated ComPort:5VDC"
 			(power)
 			(pin_numbers hide)
@@ -262,15 +102,15 @@
 				)
 			)
 		)
-		(symbol "Prototype Schematic Symbols - Isolated ComPort:Green_LED"
+		(symbol "Prototype Schematic Symbols - Isolated ComPort:LED Green (570nm) 2.1V 20mA 0402"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D1"
-				(at -0.3174 -3.81 90)
+			(property "Reference" "D?"
+				(at 3.81 0.9526 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -279,16 +119,17 @@
 				)
 			)
 			(property "Value" "LED"
-				(at -2.8574 -3.81 90)
+				(at 3.81 -1.5874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify right)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+				(at 0 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -296,8 +137,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf"
+				(at 0 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,7 +147,25 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 1.27 0 0)
+				(at 0 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "APHHS1005CGCK"
+				(at 0 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -332,10 +191,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Green_LED_0_1"
+			(symbol "LED Green (570nm) 2.1V 20mA 0402_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -347,7 +206,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 0.762 -1.778) (xy 2.286 -3.302) (xy 2.286 -2.54) (xy 2.286 -3.302) (xy 1.524 -3.302)
 					)
 					(stroke
 						(width 0)
@@ -359,7 +218,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 0.762 -0.508) (xy 2.286 -2.032) (xy 2.286 -1.27) (xy 2.286 -2.032) (xy 1.524 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -370,10 +229,10 @@
 					)
 				)
 			)
-			(symbol "Green_LED_1_1"
+			(symbol "LED Green (570nm) 2.1V 20mA 0402_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 1.27 2.54) (xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -385,7 +244,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at 0 -2.54 90)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -403,7 +262,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 5.08 270)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -422,13 +281,194 @@
 				)
 			)
 		)
-		(symbol "Prototype Schematic Symbols - Isolated ComPort:Resistor_Template"
+		(symbol "Prototype Schematic Symbols - Isolated ComPort:Red LED (630nm) 1.95V 20mA 0402"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D?"
+				(at 3.81 0.9526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LED"
+				(at 3.81 -1.5874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+				(at 0 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005SURCK.pdf"
+				(at 0 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer APHHS1005SURCK 1 0 Center Center 0 0   Part Number"
+				"APHHS1005SURCK"
+				(at -2.54 1.27 0
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode Red"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Red LED (630nm) 1.95V 20mA 0402_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 2.286 -3.302) (xy 2.286 -2.54) (xy 2.286 -3.302) (xy 1.524 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 2.286 -2.032) (xy 2.286 -1.27) (xy 2.286 -2.032) (xy 1.524 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Red LED (630nm) 1.95V 20mA 0402_1_1"
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 0 0 1)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Prototype Schematic Symbols - Isolated ComPort:Resistor 1k 0402 1%"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.27 3.556 0)
+				(at 2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -445,8 +485,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.016 0)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -472,35 +512,8 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "?kΩ"
-				(at 1.016 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "FootprintName" "0x0y"
-				(at 1.27 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "Tol"
-				(at 1.27 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 1.016 0)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -508,13 +521,41 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer PN" ""
-				(at 0 1.016 0)
+			(property "Manufacturer Part Number" "RC0402FR-071KL"
+				(at -6.35 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Resistance" "1kΩ"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Package" "0402"
+				(at 2.54 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Technology" "SMT"
@@ -526,7 +567,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resistor_Template_0_1"
+			(symbol "Resistor 1k 0402 1%_0_1"
 				(polyline
 					(pts
 						(xy 0.0003 2.5396) (xy 0.8469 2.1163) (xy -0.8463 1.2697) (xy 0.8469 0.4231) (xy -0.8463 -0.4235)
@@ -541,7 +582,7 @@
 					)
 				)
 			)
-			(symbol "Resistor_Template_1_1"
+			(symbol "Resistor 1k 0402 1%_1_1"
 				(pin bidirectional line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -1747,6 +1788,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Red LED (630nm) 1.95V 20mA 0402")
+		(at 187.96 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25404ead-14ce-45ab-a2ce-657c8183221b")
+		(property "Reference" "D2"
+			(at 190.5 72.7074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 191.77 75.2474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 187.96 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005SURCK.pdf"
+			(at 187.96 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 187.96 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer APHHS1005SURCK 1 0 Center Center 0 0   Part Number"
+			"APHHS1005SURCK"
+			(at 185.42 72.39 0
+			)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b52ce3f-f40d-4afd-a9b5-54099ecefa40")
+		)
+		(pin "2"
+			(uuid "75399f1d-80fa-47a0-a3d1-a8c61a17292f")
+		)
+		(instances
+			(project "Isolated Com Port"
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Prototype Schematic Symbols - Isolated ComPort:5VDC")
 		(at 185.42 50.8 0)
 		(unit 1)
@@ -1814,130 +1945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Resistor_Template")
-		(at 182.88 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a12ef792-ff56-4b6d-a78d-a7f6a200e4fb")
-		(property "Reference" "R1"
-			(at 180.34 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "[Resistance] [Footprint] [Tolerance]"
-			(at 181.61 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "?kΩ"
-			(at 180.34 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "FootprintName" "0x0y"
-			(at 180.34 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "Tol"
-			(at 180.34 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 182.88 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" ""
-			(at 182.88 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMT"
-			(at 184.15 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83aa5404-d2c8-4908-8237-97fae081e690")
-		)
-		(pin "2"
-			(uuid "3f995115-5d7a-4d99-9758-b82062a380e0")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 124.46 129.54 0)
 		(unit 1)
@@ -1998,6 +2005,254 @@
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Resistor 1k 0402 1%")
+		(at 187.96 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ae2c1d-860e-491a-af4e-59178c9e9cd0")
+		(property "Reference" "R1"
+			(at 190.5 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "[Resistance] [Footprint] [Tolerance]"
+			(at 189.23 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 190.5 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0402"
+			(at 190.5 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 190.5 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Technology" "SMT"
+			(at 186.69 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66a2fcd2-24d0-4dee-bab6-771d908ae3fe")
+		)
+		(pin "1"
+			(uuid "7671526f-1e84-4592-852b-1bc1bfaeb469")
+		)
+		(instances
+			(project ""
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Resistor 1k 0402 1%")
+		(at 182.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c38fbe2a-b421-4e75-bbf6-d651278848ac")
+		(property "Reference" "R2"
+			(at 180.34 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "[Resistance] [Footprint] [Tolerance]"
+			(at 184.15 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 180.34 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0402"
+			(at 175.26 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 180.34 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Technology" "SMT"
+			(at 181.61 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66a2fcd2-24d0-4dee-bab6-771d908ae3fe")
+		)
+		(pin "1"
+			(uuid "7671526f-1e84-4592-852b-1bc1bfaeb469")
+		)
+		(instances
+			(project ""
+				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2227,140 +2482,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Resistor_Template")
-		(at 187.96 60.96 0)
+		(lib_id "Prototype Schematic Symbols - Isolated ComPort:LED Green (570nm) 2.1V 20mA 0402")
+		(at 182.88 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddddc3e8-3dbb-4550-83e2-ce6cdf82b2ee")
-		(property "Reference" "R2"
-			(at 190.5 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "[Resistance] [Footprint] [Tolerance]"
-			(at 189.23 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "?kΩ"
-			(at 190.5 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "FootprintName" "0x0y"
-			(at 190.5 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "Tol"
-			(at 190.5 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 187.96 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" ""
-			(at 187.96 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMT"
-			(at 186.69 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83aa5404-d2c8-4908-8237-97fae081e691")
-		)
-		(pin "2"
-			(uuid "3f995115-5d7a-4d99-9758-b82062a380e1")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Prototype Schematic Symbols - Isolated ComPort:Green_LED")
-		(at 182.88 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd315a7e-0687-4012-847f-22d3ee7bda1f")
+		(uuid "eb2e1382-c2d2-44da-bf4c-c2352af24129")
 		(property "Reference" "D1"
-			(at 179.07 72.7074 90)
+			(at 177.8 72.7074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,16 +2501,17 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 179.07 75.2474 90)
+			(at 179.07 75.2474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 72.39 0)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 182.88 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,8 +2519,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 72.39 0)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf"
+			(at 182.88 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2529,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 71.12 0)
+			(at 182.88 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,85 +2537,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8e5ac325-36d4-4b2e-a9bf-2eda8b73c718")
+		(property "Manufacturer" "Kingbright"
+			(at 182.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "APHHS1005CGCK"
+			(at 182.88 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "4ebdccdd-d5ff-4d87-a0c3-4d393914fb2b")
+			(uuid "42d81378-699c-434a-84d4-f0bcc826c64c")
+		)
+		(pin "1"
+			(uuid "1b081af6-c113-48f4-a229-f91adc2f7f86")
 		)
 		(instances
 			(project "Isolated Com Port"
 				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 187.96 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffde838f-3735-4f80-a701-6a554ed3d998")
-		(property "Reference" "D2"
-			(at 193.04 72.7074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 191.77 75.2474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1969b42-c181-4055-9dd0-e8e794f7c824")
-		)
-		(pin "2"
-			(uuid "6d5bbf3a-d511-4cf8-aab0-6ca67ed99844")
-		)
-		(instances
-			(project "Isolated Com Port"
-				(path "/736fe05f-3e80-4c58-a4b9-c0a7b5ae4e97/20c906b9-666a-4d7a-8032-5080b03787b8"
-					(reference "D2")
 					(unit 1)
 				)
 			)
